@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "police-misconduct-outcomes-mvp"
+version = "0.1.0"
+description = "Descriptive analysis of case outcomes with explicit uncertainty and limitations"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "matplotlib>=3.7"]
+
+[project.scripts]
+misconduct-mvp = "misconduct_mvp.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100

@@ -1,0 +1,11 @@
+case_id,outcome,year
+DEMO-001,acquittal,2021
+DEMO-002,acquittal,2021
+DEMO-003,conviction,2021
+DEMO-004,other,2022
+DEMO-005,acquittal,2022
+DEMO-006,unknown,2022
+DEMO-007,acquittal,2023
+DEMO-008,conviction,2023
+DEMO-009,acquittal,2023
+DEMO-010,other,2023
